@@ -1,6 +1,6 @@
-# Paylocity Coding Assessment<br />&ensp;<sup><sub><sub>_[Click here for a breakdown of requirements as well as documentation links](/docs/docs-index.md)_</sub></sub></sup><br />
+# Paylocity Coding Challenge<br />&ensp;<sup><sub><sub>_[Click here for a breakdown of requirements as well as documentation links](/docs/docs-index.md)_</sub></sub></sup><br />
 
-## Coding Challenge Overview:
+## Overview
 
 Each of our Paylocity product teams operates like a small startup, empowered to deliver business value in whatever way they see fit.   Because our teams are close knit and fast moving it is imperative that you are able to work collaboratively with your fellow developers.
 
@@ -8,7 +8,7 @@ This coding challenge is designed to allow you to demonstrate your abilities and
 
 We are expecting candidates to typically spend about 2-3 hours on this exercise, and we realize that this may lead to an incomplete implementation.  Please take this as an opportunity to demonstrate the best of your abilities – feel free to mock out or skip pieces of the implementation and focus your time on exactly what you’d like to show us.  We’re not looking for you to give up your weekend for this project, we want something to start a meaningful conversation.
 
-## Business Need:
+## Business Need
 
 One of the critical functions that we provide for our clients is the ability to pay for their employees’ benefits packages. A portion of these costs are deducted from their paycheck, and we handle that deduction. Please demonstrate how you would code the following scenario:
 *	The cost of benefits is $1000/year for each employee
@@ -19,6 +19,6 @@ Because this calculation will be needed in multiple places (multiple web applica
 
 This is of course a contrived example.  We want to know how you would design the API and backing data store, and then implement the class structure and calculations.
 
-## You can make the following assumptions:
+### You can make the following assumptions:
 *	All employees are paid $2000 per paycheck before deductions
 *	There are 26 paychecks in a year
