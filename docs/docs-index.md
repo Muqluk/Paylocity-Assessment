@@ -7,3 +7,5 @@
 &ensp;&ensp;[Assumptions](/docs/initial/assumptions.md)<br />
 
 ## Requirements and Implementation Deep Dives
+
+&ensp;&ensp;[Initial Brainstorming](/docs/individual-breakdown/brainstorming-notes.md)
