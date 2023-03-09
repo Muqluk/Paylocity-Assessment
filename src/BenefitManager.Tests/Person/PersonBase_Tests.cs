@@ -17,7 +17,8 @@ namespace PBM.Tests.Person {
   #endregion
 
   [TestClass]
-  public class PersonBaseTests {
+  public class PersonBase_Tests {
+
     #region Setup and Teardown
 
     IPerson? person;
@@ -30,6 +31,22 @@ namespace PBM.Tests.Person {
     [TestCleanup]
     public void Cleanup() {
       person = null;
+    }
+
+    #endregion
+
+    #region Property Validation Tests
+
+    [TestMethod]
+    public void updating_FirstName_property_throws_error_when_less_than_2_non_whitespace_characters() {
+      person?.UpdateFirstName("");
+      //Assert.Fail();
+    }
+
+    [TestMethod]
+    public void updating_DateOfBirth_property_throws_error_when_dob_provided_is_after_today() {
+      person?.UpdateDateOfBirth(Utils.TodaysDateOnly.AddDays(1));
+      //Assert.Fail();
     }
 
     #endregion
