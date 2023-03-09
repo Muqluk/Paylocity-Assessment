@@ -26,13 +26,12 @@
   },
   "peacock.color": "#CC5500",
   "files.exclude": {
-    "**/.vs": false,
-    "**/Assessment": false,
-    "**/Assessment.Tests": false,
-    "**/.editorconfig": false,
-    "**/.gitattributes": false,
-    "**/.gitignore": false,
-    "**/Paylocity-Assessment.sln": false,
-    "**/readme.md": false
+    "**/.vs": true,
+    "**/Assessment": true,
+    "**/Assessment.Tests": true,
+    "**/.editorconfig": true,
+    "**/.gitattributes": true,
+    "**/readme.md": true,
+    "**/src": true
   }
 }
