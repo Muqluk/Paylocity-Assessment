@@ -23,10 +23,4 @@
   1. Administrators need to preview & verify numbers before before payroll is ran
 * The costs _may change_ in between so the calculation needs to reflect the _current_ state of the calculation, rather than the state at the time the employee entered it.
 
-## This is of course a contrived example. We want to know how <u>**_you_**</u> would:
-
-1. Design the API
-1. Design the Backing Data Store
-1. Implement the Class Structure & Calculations
-
 [^1]: Planned to be consumed via multiple web applications, mobile devices, etc 
