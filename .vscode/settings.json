@@ -1,0 +1,37 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#ff6a00",
+    "activityBar.background": "#ff6a00",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#00ff6a",
+    "activityBarBadge.foreground": "#15202b",
+    "commandCenter.border": "#e7e7e799",
+    "editorGroup.border": "#ff6a00",
+    "panel.border": "#ff6a00",
+    "sash.hoverBorder": "#ff6a00",
+    "sideBar.border": "#ff6a00",
+    "statusBar.background": "#cc5500",
+    "statusBar.border": "#cc5500",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#ff6a00",
+    "statusBarItem.remoteBackground": "#cc5500",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "tab.activeBorder": "#ff6a00",
+    "titleBar.activeBackground": "#cc5500",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.border": "#cc5500",
+    "titleBar.inactiveBackground": "#cc550099",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#CC5500",
+  "files.exclude": {
+    "**/.vs": true,
+    "**/Assessment": true,
+    "**/Assessment.Tests": true,
+    "**/.editorconfig": true,
+    "**/.gitattributes": true,
+    "**/readme.md": true,
+    "**/src": true
+  }
+}
