@@ -7,15 +7,15 @@ _[Back to Brainstorming Notes](/docs/docs-index.md)_
   * PCTY Cares
     * Paid Parental Leave <sup>_(based on length of employment)_</sup>
       * Less than 1 year:&ensp;&ensp;&ensp;&ensp;&ensp;_3 weeks_
-      * 1 year or more:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;_6 weeks_
+      * 1 year or more:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;_6 weeks_
     * Nationwide Pet Insurance
     * Adoption Assistance <sup>_(based on length of employment)_</sup>
       * Less than 1 year:&ensp;&ensp;&ensp;&ensp;&ensp;_$2,500_
-      * 1 year or more:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;_$5,000_
+      * 1 year or more:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;_$5,000_
       * Limit 1 time per year (1x annually)
     * Tuition Reimbursement Program <sup>_(based on length of employment)_</sup>
       * Less than 1 year:&ensp;&ensp;&ensp;&ensp;&ensp;_$2,500_
-      * 1 year or more:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;_$5,000_
+      * 1 year or more:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;_$5,000_
     * PCTY Employee Loan Program <sup>_(Minimum 3 months (90 days) employment)_</sup>
   * Medical
     * Medical Insurance[^dependent_eligible]
