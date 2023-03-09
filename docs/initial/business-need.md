@@ -1,10 +1,7 @@
-# Business Need <sup><sup><sub>[Return to Docs List](/readme.md)<sub></sup></sup>
-
----
-
+# Business Need <br>&ensp;<sup><sup><sub>_[Return to index](/docs/docs-index.md)_<sub></sup></sup>
 > One of the critical functions that we provide for our clients is the ability to pay for their employees’ benefits packages.  A portion of these costs are deducted from their paycheck, and we handle that deduction.
 
-## Please demonstrate how you would code the following scenario:
+### Please demonstrate how you would code the following scenario:
 
 * The cost of benefits is $1000 / year for each employee
 * Each dependent (children and possibly spouses) incurs a cost of $500/year
@@ -21,6 +18,7 @@
       * Preview & Confirmation of edits.
   1. Preview of the costs (running total as well as final)
   1. Administrators need to preview & verify numbers before before payroll is ran
-* The costs _may change_ in between so the calculation needs to reflect the _current_ state of the calculation, rather than the state at the time the employee entered it.
+* The costs may change in between so the calculation should be a runnng total, **_reflecting the current state_** of the calculation, rather than the state at the time the employee entered it.
+  * _clarifying statement - the cost(s) of individual benefits may change in real time <sup>(???)</sup> as an employee is actively making or updating selections._
 
 [^1]: Planned to be consumed via multiple web applications, mobile devices, etc 
