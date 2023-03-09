@@ -1,10 +1,10 @@
 # Documentation Links Index
 
 ## Table of Contents
-
 ### Initial Requiremeents Breakdown
-&nbsp; &nbsp; [Objective](/docs/initial/objectives.md)
-&nbsp; &nbsp; [Business Need](/docs/initial/business-need.md)
-&nbsp; &nbsp; [Assumptions](/docs/initial/assumptions.md)
 
-### Indepth requirements breakdowns
+&ensp;&ensp;[Objective](/docs/initial/objectives.md)<br />
+&ensp;&ensp;[Business Need](/docs/initial/business-need.md)<br />
+&ensp;&ensp;[Assumptions](/docs/initial/assumptions.md)<br />
+
+### Requirements and Implementation Deep Dives
