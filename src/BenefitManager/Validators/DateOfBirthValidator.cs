@@ -1,29 +1,18 @@
-﻿#region usings
+﻿using FluentValidation;
 
-using System.Reflection.Metadata;
-
-using FluentValidation;
-
+using PBM.Messages;
 using PBM.Person;
-
-#endregion
 
 namespace PBM.Validators {
   public class DateOfBirthValidator : AbstractValidator<IPerson> {
+    private static DateOnly Today => Utils.TodaysDateOnly;
 
-    #region CTOR
+    public DateOfBirthValidator() => RuleFor(p => p.DateOfBirth)
+      .Must(BePostPartum).WithMessage(ValidationError.MinAgeNotMet)
+      .Must(BeLessThanOrEqualMaxAge).WithMessage(ValidationError.MaxAgeExceeded);
 
-    public DateOfBirthValidator() => RuleFor(p => p.DateOfBirth).Must(BePostPartum).Must(BeLessThanMaxAge);
+    protected static bool BePostPartum(DateOnly dateOfBirth) => Today >= dateOfBirth;
 
-    #endregion
-
-    #region Validation Methods
-
-    protected bool BePostPartum(DateOnly dob) => (dob <= Utils.TodaysDateOnly);
-
-    protected bool BeLessThanMaxAge(DateOnly dob) => (Utils.TodaysDateOnly.Year - dob.Year) < Constants.MaxPersonAge;
-
-    #endregion
-
+    protected static bool BeLessThanOrEqualMaxAge(DateOnly dateOfBirth) => (Today.Year - dateOfBirth.Year) <= Constants.MaxPersonAge;
   }
 }

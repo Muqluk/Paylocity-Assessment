@@ -10,6 +10,8 @@
     <AssemblyName>PBM.Tests</AssemblyName>
 
     <RootNamespace>PBM.Tests</RootNamespace>
+
+    <RunAnalyzersDuringLiveAnalysis>True</RunAnalyzersDuringLiveAnalysis>
   </PropertyGroup>
 
   <ItemGroup>
