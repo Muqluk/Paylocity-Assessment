@@ -4,7 +4,6 @@ using PBM.Validators;
 
 namespace PBM.Person {
   public abstract class PersonBase : IPerson {
-
     #region Properties
 
     public virtual int Id { get; private set; }
@@ -19,7 +18,7 @@ namespace PBM.Person {
 
     #region CTOR
 
-    public PersonBase(string firstName, string lastName, DateOnly dateOfBirth) {
+    protected PersonBase(string firstName, string lastName, DateOnly dateOfBirth) {
       FirstName = firstName;
       LastName = lastName;
       DateOfBirth = dateOfBirth;
